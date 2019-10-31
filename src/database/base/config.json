@@ -1,0 +1,20 @@
+{
+  "mongodb": {
+    "name": "mongodb",
+    "connectionTime": 2000,
+    "status": [
+      "Disconnected",
+      "Connected",
+      "Connecting",
+      "Disconnecting"
+    ],
+    "logMessage": "Database Mongodb running"
+  },
+  "postgres": {
+    "name": "postgres",
+    "logMessage": "Database Postgres running"
+  },
+  "global": {
+    "ErrConnectionLog": "Connection Error!"
+  }
+}
