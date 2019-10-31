@@ -1,0 +1,24 @@
+{
+  "ignoreFiles": [
+    "base.route.js",
+    "config.json"
+  ],
+  "path": "./",
+  "pattern": ".route.js",
+  "methods": {
+    "GET": "GET",
+    "POST": "POST",
+    "PUT": "PUT",
+    "PATCH": "PATCH",
+    "DELETE": "DELETE"
+  },
+  "defaultValues": {
+    "description": "Description not defined yet",
+    "notes": "Notes not defined by developer",
+    "strings": {
+      "stringsNotDefined": "Strings not defined by developer",
+      "routeNotDefined": "Route not defined by developer"
+    },
+    "tags": ["api"]
+  }
+}
