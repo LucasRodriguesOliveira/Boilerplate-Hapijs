@@ -1,2 +1,2 @@
-# Boilerplate-HapiRouter
-A Boilerplate for Hapi Router
+# Boilerplate-Hapijs
+A Boilerplate for Hapi
