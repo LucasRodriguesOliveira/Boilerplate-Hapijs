@@ -1,7 +1,7 @@
 # Boilerplate-Hapijs
 A Boilerplate for Hapi
 
-##All necessary files to your application
+## All necessary files to your application
 ### Route
 ### Helper
 ### Controller
@@ -10,5 +10,5 @@ A Boilerplate for Hapi
 ### etc...
 
 
-Just configure, and code
+Just configure, and code <br/>
 Simple as it sounds
