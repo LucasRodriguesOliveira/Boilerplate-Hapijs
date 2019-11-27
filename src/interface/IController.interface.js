@@ -1,5 +1,10 @@
 const NotImplementedException = require('../exception/notImplemented.exception');
 
+/**
+ * @public
+ * @interface IController
+ * @description Defines how a Controller should works
+ */
 class IController {
   constructor(database) {
     this.database = database;
