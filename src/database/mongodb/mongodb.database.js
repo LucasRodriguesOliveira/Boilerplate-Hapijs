@@ -2,6 +2,13 @@ const IDatabase = require('../../interface/IDatabase.interface');
 const Mongoose = require('mongoose');
 const { mongodb, global } = require('../base/config.json');
 
+/**
+ * @public
+ * @class
+ * @extends IDatabase
+ * @description Manipulates connection and operations to mongodb database <br/>
+ * Set your connection string in .env.development in CONNECTION variable
+ */
 class Mongodb extends IDatabase {
   constructor(connection) {
     super(mongodb.name, connection);
