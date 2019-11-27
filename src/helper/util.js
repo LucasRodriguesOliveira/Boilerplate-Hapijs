@@ -12,7 +12,7 @@ class Util {
    * @static
    * @method
    * @param {any} val Any value that wants to search in <em><ins>arr</ins></em>
-   * @param {array} arr Vector containing all values ​​for which the search will be performed
+   * @param {array} arr Vector containing all values for which the search will be performed
    * @returns {Boolean}
    * @description
    * Checks the existence of <em><ins>val</ins></em> in vector <em><ins>arr</ins></em>
@@ -27,7 +27,7 @@ class Util {
    * @static
    * @method
    * @param {any} val Any value that wants to search in <em><ins>arr</ins></em>
-   * @param {array} arr Vector containing all values ​​for which the search will be performed
+   * @param {array} arr Vector containing all values for which the search will be performed
    * @returns {Boolean}
    * @description
    * Checks for <strong>No</strong> existence of <em><ins>val</ins></em> in vector <em><ins>arr</ins></em>

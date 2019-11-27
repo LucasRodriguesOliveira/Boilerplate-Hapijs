@@ -24,6 +24,12 @@ try {
 // * Setting up the server
 const app = new Hapi.server({ port: process.env.PORT });
 // * Main function
+/**
+ * @public
+ * @function
+ * @returns {Server}
+ * @description Server Start
+ */
 async function main() {
   // Swagger needs some config informations
   // Register plugins

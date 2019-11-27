@@ -4,13 +4,13 @@
  * @extends {Error}
  * @throws {NotImplementedException}
  * @description
- * Lança uma exceção métodos não sobrescritos pelas classes filho
+ * throws an exception for not overloaded methods
  */
 class NotImplementedException extends Error {
   /**
    * @public
    * @constructor
-   * @param {string} name Nome do método ao qual será lançada a exceção
+   * @param {string} name method name
    */
   constructor(name) {
     super(`Not Implemented Exception!${name ? ' Expected ' + name + '!' : ''}`);
